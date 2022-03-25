@@ -3,7 +3,7 @@ data "aws_route53_zone" "internal" {
   private_zone = true
 }
 
-data "aws_route53_zone" "public" {
-  zone_id      = var.PUBLIC_HOSTED_ZONE_ID
-  private_zone = false
-}
+//data "aws_route53_zone" "public" {
+//  zone_id      = var.PUBLIC_HOSTED_ZONE_ID
+//  private_zone = false
+//}

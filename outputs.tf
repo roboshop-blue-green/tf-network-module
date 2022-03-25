@@ -38,10 +38,10 @@ output "INTERNAL_HOSTED_ZONE_NAME" {
   value = data.aws_route53_zone.internal.name
 }
 
-output "PUBLIC_HOSTED_ZONEID" {
-  value = data.aws_route53_zone.public.zone_id
-}
-
-output "PUBLIC_HOSTED_ZONE_NAME" {
-  value = data.aws_route53_zone.public.name
-}
+//output "PUBLIC_HOSTED_ZONEID" {
+//  value = data.aws_route53_zone.public.zone_id
+//}
+//
+//output "PUBLIC_HOSTED_ZONE_NAME" {
+//  value = data.aws_route53_zone.public.name
+//}
