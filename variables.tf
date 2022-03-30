@@ -27,3 +27,4 @@ variable "DEFAULT_ROUTE_TABLE_ID" {
   description = "Route table id for making the peer connection to work"
 }
 
+variable "PUBLIC_HOSTED_ZONE_ID" {}
